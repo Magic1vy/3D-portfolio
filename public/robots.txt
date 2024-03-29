@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://valeriia-code.com/   /sitemap.xml
