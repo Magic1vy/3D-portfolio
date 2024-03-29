@@ -29,6 +29,20 @@ const Home = () => {
         }
     }, [isPlayingMusic]);
 
+    useEffect(() => {
+        const preventScroll = (event) => {
+            event.preventDefault();
+        };
+    
+        const canvasElement = document.querySelector('canvas');
+        canvasElement.addEventListener('touchmove', preventScroll, { passive: false });
+    
+        return () => {
+            canvasElement.removeEventListener('touchmove', preventScroll);
+        };
+    }, []);
+    
+
     const adjustIslandForScreenSize = () => {
         let screenScale = null;
         let screenPosition = [0, -6.5, -43];
