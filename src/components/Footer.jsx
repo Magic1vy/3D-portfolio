@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='footer font-poppins'>
       <hr className='border-slate-200' />
 
-      <div className='footer-container'>
+      <div className='flex flex-col flex-wrap gap-7 items-center justify-between mb-5 md:mb-0 md:flex-row'>
         <p>
           © 2024 <span className='blue-gradient_text font-semibold drop-shadow'>Valeriia Isaienko</span>. All rights reserved.
         </p>

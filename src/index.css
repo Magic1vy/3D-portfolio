@@ -57,10 +57,10 @@ body:has(.card[data-color="green"]:hover) {
     .footer {
         @apply max-w-5xl mx-auto sm:px-16 pb-6 px-8 flex flex-col gap-7;
     }
-
+/* 
     .footer-container {
-        @apply flex flex-wrap gap-7 items-center justify-between;
-    }
+        @apply 
+    } */
 
     .info-box {
         @apply mx-5 relative flex text-white flex-col gap-3 max-w-2xl neo-brutalism-blue pt-4 pb-12 px-8;
@@ -169,7 +169,6 @@ body:has(.card[data-color="green"]:hover) {
     transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
 }
 
-/* Neo Brutalism */
 .neo-brutalism-blue {
     background: #2b77e7;
     position: relative;
